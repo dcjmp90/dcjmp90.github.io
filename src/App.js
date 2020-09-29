@@ -9,10 +9,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div id="colorlib-page">
+      <div id="colorlib-page" style={{overflow: 'hidden'}}>
         <div id="container-wrap">
           <Sidebar></Sidebar>
-          <div id="colorlib-main">
+          <div id="colorlib-main" style={{overflow: 'hidden'}}>
             <Introduction></Introduction>
           </div>
         </div>
