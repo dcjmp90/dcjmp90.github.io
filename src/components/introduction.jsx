@@ -21,14 +21,15 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li>
+              <li style={{backgroundImage: 'url(/images/img_bg3.jpg)' }}>
                 <div className="overlay" />
-                <div className="container-fluid">
+                <div className="container-fluid" style={{backgroundColor: 'rgba(0,0,0,.4)'}}>
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>VAIL MEMBER</h1>
+                          <h1 style={{color: '#f15a22', fontSize: '60px'}}>VAIL <p style={{color: 'white', fontSize: '60px'}}>MEMBER</p></h1>
+                          <h1 style={{color: 'white', fontSize: '30px'}}>COMPUTER VISION RESEARCHER</h1>
                         </div>
                       </div>
                     </div>
