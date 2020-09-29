@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
                     <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></a>
                     <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
                         <div className="text-center">
-                            <div className="author-img" style={{ backgroundImage: 'url(/images/img_bg2.jpg)' }} />
+                            <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
                             <h1 id="colorlib-logo"><a href="index.html">Jonathan Perry</a></h1>
                             <span className="email"><i className="icon-mail"></i> jonathanmperry@gmail.com</span>
                             <span className="number"><i className="icon-phone"></i> +1 775 283 8248</span>
@@ -24,13 +24,20 @@ export default class Sidebar extends Component {
                                 </ul>
                             </div>
                         </nav>
-                        <nav id="colorlib-main-menu">
+                        <nav id="colorlib-main-menu" style={{textAlign: "center"}}>
                             <div className="icon-row">
-                                <a href="#" target="_blank"><i className="icon-facebook2" /></a>
-                                <a href="#" target="_blank"><i className="icon-instagram" /></a>
-                                <a href="#" target="_blank"><i className="icon-linkedin2" /></a>
-                                <a href="#" target="_blank"><i className="icon-github"></i></a>
-                                <a href="#" target="_blank"><i className="icon-blogger2"></i></a>
+                                <div className="div-icon">
+                                    <a href="#" target="_blank" className="icon-links" ><i className="icon-facebook2" /></a>
+                                </div>
+                                <div className="div-icon">
+                                    <a href="#" target="_blank" className="icon-links" ><i className="icon-instagram" /></a>
+                                </div>
+                                <div className="div-icon">
+                                    <a href="#" target="_blank" className="icon-links" ><i className="icon-linkedin2" /></a>
+                                </div>
+                                <div className="div-icon">
+                                <a href="#" target="_blank" className="icon-links"  ><i className="icon-github"></i></a>
+                                </div>
                             </div>
                         </nav>
                     </aside>
