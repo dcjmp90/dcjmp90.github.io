@@ -29,6 +29,11 @@
   color: #f15a22;
 }
 
+div{
+
+}
+
+
 .div-icon{
   padding: 10px;
   color: black;
@@ -51,7 +56,9 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(0, 0, 0, 0.7); 
+  overflow: hidden;  
+}
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
