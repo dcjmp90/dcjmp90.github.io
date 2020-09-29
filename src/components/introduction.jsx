@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Introduction extends Component {
   render() {
     return (
-      <div style={{overflow: 'hidden'}}>
+      <div>
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
