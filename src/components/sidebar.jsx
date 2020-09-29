@@ -24,8 +24,8 @@ export default class Sidebar extends Component {
                                 </ul>
                             </div>
                         </nav>
-                        <nav id="colorlib-main-menu" style={{textAlign: "center"}} style={{overflow: 'hidden'}}>
-                            <div className="icon-row" style={{paddingTop: '10px'}}>
+                        <nav id="colorlib-main-menu" style={{overflow: 'hidden', paddingTop: '10px', textAlign: "center"}}>
+                            <div className="icon-row">
                                 <div className="div-icon">
                                     <a href="#" target="_blank" className="icon-links" ><i className="icon-facebook2" /></a>
                                 </div>
