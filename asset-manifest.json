@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dcjmp90.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/dcjmp90.github.io/static/js/main.a7bf6fbf.chunk.js",
+    "main.js.map": "/dcjmp90.github.io/static/js/main.a7bf6fbf.chunk.js.map",
+    "runtime-main.js": "/dcjmp90.github.io/static/js/runtime-main.9e8cdb7b.js",
+    "runtime-main.js.map": "/dcjmp90.github.io/static/js/runtime-main.9e8cdb7b.js.map",
+    "static/js/2.dbb693e3.chunk.js": "/dcjmp90.github.io/static/js/2.dbb693e3.chunk.js",
+    "static/js/2.dbb693e3.chunk.js.map": "/dcjmp90.github.io/static/js/2.dbb693e3.chunk.js.map",
+    "index.html": "/dcjmp90.github.io/index.html",
+    "precache-manifest.a8ebdc2ce44ae34acdc434709b77abbc.js": "/dcjmp90.github.io/precache-manifest.a8ebdc2ce44ae34acdc434709b77abbc.js",
+    "service-worker.js": "/dcjmp90.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/dcjmp90.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.dbb693e3.chunk.js.LICENSE.txt": "/dcjmp90.github.io/static/js/2.dbb693e3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/dcjmp90.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e8cdb7b.js",
+    "static/js/2.dbb693e3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.a7bf6fbf.chunk.js"
+  ]
+}
