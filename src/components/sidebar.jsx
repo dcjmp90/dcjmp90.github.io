@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Sidebar extends Component {
     render() {
         return (
-            <div style={{overflow: 'hidden'}}>
+            <div className="side-nav" style={{overflow: 'hidden'}}>
                 <div>
                     <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></a>
                     <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
