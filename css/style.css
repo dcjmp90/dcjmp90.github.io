@@ -7,6 +7,37 @@
 
 /* =======================================================
 *
+* 	MY CODE
+*	ANYTHING NEW IS HERE
+*
+* ======================================================= */
+
+.icon-row{
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+}
+
+.icon-links:hover{
+  color: #f15a22;
+}
+
+.div-icon{
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+}
+/* =======================================================
+*
 * 	Template Style 
 *	Edit this section
 *
@@ -22,12 +53,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color: black;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #2c98f0;
+    color: #f15a22;
     outline: none;
     text-decoration: none !important; }
 
