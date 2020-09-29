@@ -7,6 +7,21 @@
 
 /* =======================================================
 *
+* 	MY CODE
+*	ANYTHING NEW IS HERE
+*
+* ======================================================= */
+
+.icon-row{
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/* =======================================================
+*
 * 	Template Style 
 *	Edit this section
 *
