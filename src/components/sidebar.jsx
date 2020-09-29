@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export default class Sidebar extends Component {
     render() {
         return (
-            <div className="side-nav">
+            <div>
                 <div>
-                    <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle side-nav" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></a>
-                    <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
+                    <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style={{color: 'white'}}><i /></a>
+                    <aside id="colorlib-aside" role="complementary" className="border js-fullheight side-nav">
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
                             <h1 id="colorlib-logo"><a href="index.html">Jonathan Perry</a></h1>
