@@ -5,7 +5,7 @@ export default class Sidebar extends Component {
         return (
             <div className="side-nav">
                 <div>
-                    <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></a>
+                    <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle side-nav" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></a>
                     <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
