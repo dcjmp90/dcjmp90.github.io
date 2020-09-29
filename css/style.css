@@ -12,6 +12,10 @@
 *
 * ======================================================= */
 
+.side-nav{
+  overflow: hidden;
+}
+
 .icon-row{
   display: inline-flex;
   align-items: center;
