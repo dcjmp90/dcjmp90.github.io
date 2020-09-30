@@ -220,6 +220,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
+            color: black;
             background-color: #f15a22;
             visibility: hidden;
             -webkit-transform: scaleX(0);
@@ -276,7 +277,7 @@ figure {
         #colorlib-aside .colorlib-footer ul li a {
           color: rgba(255, 255, 255, 1);
           padding: 4px; }
-          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
+          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active {
             text-decoration: none;
             outline: none;
             color: #f15a22; }
