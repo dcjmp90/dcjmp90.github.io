@@ -14,6 +14,7 @@ class App extends Component {
           <Sidebar></Sidebar>
           <div id="colorlib-main" style={{overflow: 'hidden'}}>
             <Introduction></Introduction>
+            <Timeline></Timeline>
           </div>
         </div>
       </div>
