@@ -5,99 +5,93 @@ export default class Timeline extends Component {
     return (
       <div>
         <section className="colorlib-experience" data-section="timeline">
-          <div className="colorlib-narrow-content">
-            <div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Timeline</h2>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2><a href="#"> Technical Leader - Monotype Solutions India Pvt Ltd.</a> <span>2015-present</span></h2>
-                        <ul>
-                          <li>
-                            <p> <b> Page View Tracking </b> -  ETL pipeline for batch and real time processing of raw server log files whose size ranging from 60-70 GB daily</p>
-                          </li>
-                          <li>
-                            <p> <b> Font Discovery Microservice </b> -  Provide font similarity, attributes, Pairs etc using serverless microservice architecture</p>
-                          </li>
-                          <li>
-                            <p> <b> Web Font Microservices </b> - Provide web fonts for respective desktop fonts, Cloud hosting of web fonts, Dynamic subsetting</p>
-                          </li>
-                          <li>
-                            <p> <b> POC's on Product inventory management </b> tools like Magento and Skava and explore headless integration capabilities of these platforms. Create backend with Node.jS  </p>
-                          </li>
-                          <li>
-                            <p> <b> iOS apps development </b> - Lead iOS apps development efforts in Monotype. Proud of work done on <a href='https://itunes.apple.com/us/app/whatthefont/id304304134?mt=8'> What The Font </a> IOS app </p>
-                          </li>
-                          <li>
-                            <p> <b> Scrum master </b> - Scrum alliance Certified Scrum master and advocate of Agile methodology and scrum framework</p>
-                          </li>
-                        </ul>
-                      </div>
+                    <div className="colorlib-narrow-content">
+                        <div className="row">
+                        <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                            <span className="heading-meta">Big Picture</span>
+                            <h2 className="colorlib-heading animate-box">Experience Timeline</h2>
+                        </div>
+                        </div>
+                        <div className="row">
+                        <div className="col-md-12">
+                            <div className="timeline-centered">
+                            <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                <div className="timeline-entry-inner">
+                                <div className="timeline-icon color-4">
+                                    <i className="fa fa-desktop" />
+                                </div>
+                                <div className="timeline-label">
+                                    <h2><a href="#"> Computer Vision Researcher - University of Texas at San Antonio</a> <span>2019-present</span></h2>
+                                    <ul>
+                                        <li>
+                                            <p> <b> ICCV 2019 Publication </b> - oral presentation for OpenEDS workshop in Seoul, South Korea</p>
+                                        </li>
+                                        <li>
+                                            <p> <b> ECCV 2020 Publiction </b> -  oral presentation for OpenEDS2020 workshop virtually (Glasgow, UK)</p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Semantic Segmentation Research </b> - researching improvements within deep learning for AR/VR and autonomous driving tasks</p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Member of CONNECT team for NNSA MSIPP </b> CONsortium on Nuclear sECurity Technologies member utilizing real-time segmentation funded by the National Nuclear Security Administration Minority Serving Institution Partnership Program   </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </article>
+                            <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                                <div className="timeline-entry-inner">
+                                <div className="timeline-icon color-5">
+                                    <i className="fa fa-cogs" />
+                                </div>
+                                <div className="timeline-label">
+                                    <h2><a href="#"> Machine Learning Engineer Intern - Sierra Nevada Corporation</a> <span>Summer 2020</span></h2>
+                                    <ul>
+                                    <li>
+                                        <p> <b>Analysis of Real World Data</b> -  Applied reinforcement learning techniques to a real-world military application.</p>
+                                    </li>
+                                    <li>
+                                        <p> <b> Reinforcement Learning Framework Experience</b> -  Utilized Multi-Agent Reinforcement Learning with the Keras-RL and OpenAI frameworks.</p>
+                                    </li>
+                                    <li>
+                                        <p> <b> Team Building & Collaboration </b> Led the R & D team in setup by creating Docker runtime environments to suit the project needs and requirements. </p>
+                                    </li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </article>
+                            <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                <div className="timeline-entry-inner">
+                                <div className="timeline-icon color-6">
+                                    <i className="fa fa-filter" />
+                                </div>
+                                <div className="timeline-label">
+                                    <h2><a href="#"> Machine Learning Engineer  -  FunnelAI</a> <span>Jan 2019 - June 2019</span></h2>
+                                    <ul>
+                                    <li>
+                                        <p> <b> Natural Language Processing </b> -  Constructed end to end Machine Learning pipelines for NLP classifications. </p>
+                                    </li>
+                                    <li>
+                                        <p> <b> Aamazon Web Services </b> -  Utilized Amazon Web Services to serve the pipeline to a real-time web application. </p>
+                                    </li>
+                                    <li>
+                                        <p> <b> Team Building & Collaboration </b> Collaborated on a daily basis with the development team for proper testing and utilization of the ML models. </p>
+                                    </li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </article>
+                            <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                <div className="timeline-entry-inner">
+                                <div className="timeline-icon color-none">
+                                </div>
+                                </div>
+                            </article>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2><a href="#"> Lead Engineer - Samsung R & D Institute Noida</a> <span>2011-2015</span></h2>
-                        <ul>
-                          <li>
-                            <p> <b> iOS Team Lead </b> -  End to end delivery on SmartView and MagicInfo iOS app</p>
-                          </li>
-                          <li>
-                            <p> <b> Requirement gathering and RFP analysis </b> -  Gather project requirements from client and provide estimates on project delivery timelines</p>
-                          </li>
-                          <li>
-                            <p> <b> Working experience on C++ project </b> to change SmartTV settings from desktop app. </p>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2><a href="#"> Senior Software Engineer -  Accenture Services Pvt Ltd.</a> <span>2009-2011</span></h2>
-                        <ul>
-                          <li>
-                            <p> <b> iOS app development </b> -  For insurance clients like Standard Life </p>
-                          </li>
-                          <li>
-                            <p> <b> Proof of concepts developed </b> -  Screen Mirror iOS app on projector </p>
-                          </li>
-                          <li>
-                            <p> <b> Completed 6 months Green Field training </b> on various languages like C++, Java </p>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
-                      </div>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+                </section>
       </div>
     )
   }

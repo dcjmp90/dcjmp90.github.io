@@ -4,95 +4,57 @@ export default class About extends Component {
     render() {
         return (
             <div>
-            <section className="colorlib-about" data-section="about">
-            <div className="colorlib-narrow-content">
-                <div className="row">
-                <div className="col-md-12">
-                    <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                    <div className="col-md-12">
-                        <div className="about-desc">
-                        <span className="heading-meta">About Me</span>
-                        <h2 className="colorlib-heading">Who Am I?</h2>
-                        <p> Human | Engineering leader | Javascript | ReactJS | Node.js | AWS cloud expert | ETL pipeline | Devops | iOS</p>
-                        <p> Iam a energetic software engineer with a passion to drive business value through innovation and operational excellence delivering superior engineering solutions at scale. </p>
+                
+               
+                <section className="colorlib-about" data-section="about">
+                    <div className="colorlib-narrow-content">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div className="col-md-12">
+                                        <div className="about-desc" style={{alignItems: 'center', margin:'auto'}}>
+                                            <span className="heading-meta">Personal Life</span>
+                                            <p>Caffeine Fiend | Foodie | Fitness | Swimming | Computer Builds | Audiophile | Video Games | Avid Movie Goer | Arcade Lover</p>
+                                            <span className="heading-meta">Summary</span>
+                                            <p>
+                                                As much as I love going to a family owned restaurant or a &#127864; lavish dinner out, I love cooking! 	&#127859;
+                                                My favorite dish is &#127481;&#127469;Thai food, and I cook many of the popular dishes myself. &#128522; I love all kinds of spicy foods&#127798;&#65039;&#127798;&#65039;&#127798;&#65039; 
+                                                <br /><br/>
+                                                I love to not only program software, but I love to build custom &#128187; computers. My instagram&#128247;  has a story about it!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </section>
+                <hr />
+                <section className="colorlib-about" data-section="about">
+                    <div className="colorlib-narrow-content">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div className="col-md-12">
+                                        <div className="about-desc">
+                                            <span className="heading-meta">Professional</span>
+                                            <p> Air Force Veteran | Computer Vision Researcher | Software Developer | Machine Learning Engineer</p>
+                                            <hr />
+                                            <span className="heading-meta">Summary</span>
+                                            <p> Enthusiastic researcher with a solid background in the Deep Learning realm, including current 
+                                                and ongoing research in leading edge applications of Computer Vision, specifically Semantic Segmentation. 
+                                                First author of two publications to conferences in Computer Vision in Fall 2019 and Summer 2020. 
+                                                Research team member for the CONsortium on Nuclear sECurity Technologies (CONNECT) in collaboration 
+                                                with Argonne National Laboratory and Los Alamos National Laboratory. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                </div>
+                </section>
             </div>
-            </section>
-            <section className="colorlib-about">
-            <div className="colorlib-narrow-content">
-                <div className="row">
-                <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                    <span className="heading-meta">What I do?</span>
-                    <h2 className="colorlib-heading">Here are some of my expertise</h2>
-                </div>
-                </div>
-                <div className="row row-pt-md">
-                <div className="col-md-4 text-center animate-box">
-                    <div className="services color-1">
-                    <span className="icon">
-                        <i className="icon-bulb" />
-                    </span>
-                    <div className="desc">
-                        <h3>Team Leader - Microservices / Frontend Development</h3>
-                        <p> Advocate of code reviews with pre-comit checks on PR's, Maintainable and easily understood code, TDD and DDD </p>
-                        <p> Design and development of Microservices </p>
-                        <p> Provide solutions to complex problems </p>
-                        <p> Code reviews </p>
-                        <p> Design and development of microservices using engineering best practices </p>
-                        <p> Strive for quality engineering product using practices like CI/CD, Pre commit hooks, TDD, DDD, Code analysis etc.</p>
-                        <p> Developed serverless REST api's using AWS managed services</p>
-                        <p> Frontend design and development using ReactJS as the library to develop resuable UI components</p>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-4 text-center animate-box">
-                    <div className="services color-3">
-                    <span className="icon">
-                        <i className="icon-open" />
-                    </span>
-                    <div className="desc">
-                        <h3> Open source software advocate</h3>
-                        <p> Contribute to open source community through platforms like Medium, Github, StackOverflow etc. </p>
-                        <p> Explore new technologies and provide MVP/POC's to help team in providing best solutions to software engineering problems</p>
-                        <p> Motivate team members to learn new technologies and contribute back to community</p>
-                        <p> Some of my interests in tech stack - Javascript, ReactJS, React-Native, Apache spark, Hadoop, AWS Athena, Node.js, NoSql databases, Redux, Python etc. </p>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-4 text-center animate-box">
-                    <div className="services color-5">
-                    <span className="icon">
-                        <i className="icon-cloud-storage" />
-                    </span>
-                    <div className="desc">
-                        <h3>DevOps</h3>
-                        <p> Improve and streamline CI/CD process to reduce our time to market </p>
-                        <p> Guide team members towards solution to complex devops problems </p>
-                        <p> Advocate of Infrastructure as code and CI/CD </p>
-                        <p> Hands on expierence on - Jenkins, Shell script, AWS cloud, Ansible, Packer, Spinacker, Terraform etc. </p>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-4 text-center animate-box">
-                    <div className="services color-5">
-                    <span className="icon">
-                        <i className="icon-phone" />
-                    </span>
-                    <div className="desc">
-                        <h3>iOS apps development</h3>
-                        <p> 6+ years of iOS application development </p>
-                        <p> Hands on with Swift, Objective C, iOS and MACOSX. </p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </section>
-          </div>
         )
     }
 

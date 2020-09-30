@@ -57,7 +57,6 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); 
-  overflow: hidden;  
 }
   @media screen and (max-width: 992px) {
     body {
@@ -421,7 +420,6 @@ body.offcanvas {
 .colorlib-education,
 .colorlib-blog,
 .colorlib-work,
-.colorlib-about,
 .colorlib-services,
 .colorlib-contact {
   padding-top: 2em;
@@ -435,11 +433,22 @@ body.offcanvas {
     .colorlib-education,
     .colorlib-blog,
     .colorlib-work,
-    .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
+
+.colorlib-about{
+  display: block;
+  width: 100%;
+  clear: left;
+
+}
+@media screen and (max-width: 768px){
+    .colorlib-about{
+      display:block;
+    }
+}
 
 .author-img {
   background-size: cover;

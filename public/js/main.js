@@ -268,6 +268,12 @@
 
 	};
 
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+		  animation: "slide"
+		});
+	  });
+	  
 	var owlCrouselFeatureSlide = function() {
 		$('.owl-carousel').owlCarousel({
 			animateOut: 'fadeOut',
