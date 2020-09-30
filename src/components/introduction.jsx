@@ -43,11 +43,11 @@ export default class Introduction extends Component {
                     <div className="col-md-12 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc" style={{textAlign: 'left', alignContent: 'left', position: 'relative'}}>
-                          <div style={{width: '40%', height: 'auto'}}>
+                          <div style={{width: '20%', height: 'auto', float:'left'}}>
                             <img src="/images/cs_logo.png" className="cs-logo" alt=""></img>
                           </div>
                           
-                          <h1 style={{color: 'white', fontSize: '40px'}}>GRADUATE STUDENT</h1>
+                          <h1 style={{color: 'white', fontSize: '40px', float:'left', clear:'left'}}>GRADUATE STUDENT</h1>
                         </div>
                       </div>
                     </div>
