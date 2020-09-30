@@ -6,11 +6,11 @@ export default class Sidebar extends Component {
             <div>
                 <div>
                     <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style={{color: 'white'}}><i /></a>
-                    <aside id="colorlib-aside" role="complementary" className="border js-fullheight" style={{overflow: 'hidden'}}>
+                    <aside id="colorlib-aside" role="complementary" className="border js-fullheight" style={{overflow: 'hidden', height: '100%'}}>
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
                             <h1 id="colorlib-logo"><a href="index.html">Jonathan Perry</a></h1>
-                            <span className="email"><i className="icon-mail"></i> jonathanmperry@gmail.com</span>
+                            <span className="email"><i className="icon-mail"></i> dcjmp90@gmail.com</span>
                             <span className="number"><i className="icon-phone"></i> +1 775 283 8248</span>
                         </div>
                         <nav id="colorlib-main-menu" role="navigation" className="navbar" style={{overflow: 'hidden'}}>
@@ -27,16 +27,16 @@ export default class Sidebar extends Component {
                         <nav id="colorlib-main-menu" style={{overflow: 'hidden', paddingTop: '10px', textAlign: "center"}}>
                             <div className="icon-row">
                                 <div className="div-icon">
-                                    <a href="#" target="_blank" className="icon-links" ><i className="icon-facebook2" /></a>
+                                    <a href="https://www.facebook.com/jon.perry.50309277" target="_blank" className="icon-links" ><i className="icon-facebook2" /></a>
                                 </div>
                                 <div className="div-icon">
-                                    <a href="#" target="_blank" className="icon-links" ><i className="icon-instagram" /></a>
+                                    <a href="https://www.instagram.com/perry.jon.m/" target="_blank" className="icon-links" ><i className="icon-instagram" /></a>
                                 </div>
                                 <div className="div-icon">
-                                    <a href="#" target="_blank" className="icon-links" ><i className="icon-linkedin2" /></a>
+                                    <a href="https://wwww.linkedin/in/perryjon/" target="_blank" className="icon-links" ><i className="icon-linkedin2" /></a>
                                 </div>
                                 <div className="div-icon">
-                                <a href="#" target="_blank" className="icon-links"  ><i className="icon-github"></i></a>
+                                <a href="https://github.com/dcjmp90" target="_blank" className="icon-links"  ><i className="icon-github"></i></a>
                                 </div>
                             </div>
                         </nav>
