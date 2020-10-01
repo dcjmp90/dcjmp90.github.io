@@ -11,23 +11,49 @@
 *	ANYTHING NEW IS HERE
 *
 * ======================================================= */
+.arrow{
+  margin: 8% 0;
+}
+.bounce{
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 
 #colorlib-aside-mobile {
   padding-top: 1em;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   float: center;
+  vertical-align: center;
   width: 100%;
+  height: 100%;
   position: relative;
   overflow: hidden;
   z-index: 1001;
   background: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s;
+  justify-content: flex-end; }
   @media screen and (max-width: 768px) {
     #colorlib-aside-mobile {
       width: 100%;
-      padding-top: 4em; } }
+      padding-top: 1em;
+      height: 100%; 
+      vertical-align: center;
+      justify-content: flex-end; } }
   #colorlib-aside-mobile .author-img {
     width: 150px;
     height: 150px;
@@ -58,7 +84,11 @@
       padding-right: .3em; }
   #colorlib-aside-mobile #colorlib-main-menu-mobile {
     display: block;
-    width: 100%; }
+    width: 100%;
+    height: 100%; 
+    justify-content: flex-end;
+    padding-top: 1cm;
+    padding-bottom: 1cm;}
     #colorlib-aside-mobile #colorlib-main-menu-mobile .collapse {
       display: block !important; }
     #colorlib-aside-mobile #colorlib-main-menu-mobile ul {
@@ -93,7 +123,7 @@
             left: 0;
             right: 0;
             color: black;
-            background-color: #f15a22;
+            background-color:white;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -116,7 +146,7 @@
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside-mobile #colorlib-main-menu-mobile ul li.active a {
-          color: #f15a22; }
+          color: black; }
           #colorlib-aside-mobile #colorlib-main-menu-mobile ul li.active a:after {
             color: black;
             visibility: visible;
@@ -152,7 +182,7 @@
           #colorlib-aside-mobile .colorlib-footer-mobile ul li a:hover, #colorlib-aside-mobile .colorlib-footer-mobile ul li a:active {
             text-decoration: none;
             outline: none;
-            color: #f15a22; }
+            color: black; }
 
 
 
