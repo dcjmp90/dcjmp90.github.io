@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Sidebar extends Component {
     render() {
         return (
-            <div style={{justifyContent:'flex-end', height:'100%', paddingBottom:'30%', verticalAlign:'center'}}>
+            <div style={{justifyContent:'flex-end', height:'100%', paddingBottom:'0', verticalAlign:'center'}}>
                 <div>
                     
                     <aside id="colorlib-aside-mobile" className="border" style={{overflow: 'hidden'}}>
@@ -42,8 +42,8 @@ export default class Sidebar extends Component {
                         </nav>
                         <div className="text-center">
                             <span className="email">SCROLL DOWN FOR MORE CONTENT</span>
-                            <div class="text-center arrow bounce">
-                                <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                            <div className="text-center arrow bounce">
+                                <a className="fa fa-arrow-down fa-2x" href="#"></a>
                             </div>
                         </div>
                     </aside>

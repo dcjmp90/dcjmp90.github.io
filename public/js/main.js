@@ -5,6 +5,39 @@
 
 	var btn = $('#button');
 
+	$(document).ready(function (){
+		$("#clickedone").click(function (){
+			var icon = $("#iconone");
+			var color = icon.css("background").split(")")[0]+")";
+			console.log()
+			if (color == "rgb(128, 0, 128)") {
+				icon.css("background", "#f15a22");
+			} else {
+				icon.css("background", "rgb(128, 0, 128)");
+			}
+		});
+		$("#clickedtwo").click(function (){
+			var icon = $("#icontwo");
+			var color = icon.css("background").split(")")[0]+")";
+			console.log()
+			if (color == "rgb(20, 200, 10)") {
+				icon.css("background", "#f15a22");
+			} else {
+				icon.css("background", "rgb(20, 200, 10)");
+			}
+		});
+		$("#clickedfour").click(function (){
+			var icon = $("#iconfour");
+			var color = icon.css("background").split(")")[0]+")";
+			console.log()
+			if (color == "rgb(20, 10, 200)") {
+				icon.css("background", "#f15a22");
+			} else {
+				icon.css("background", "rgb(20, 10, 200)");
+			}
+		});
+	});
+
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > 300) {
 			btn.addClass('show');
@@ -12,6 +45,8 @@
 			btn.removeClass('show');
 		}
 	});
+
+
 
 	btn.on('click', function(e) {
 		e.preventDefault();

@@ -10,6 +10,7 @@ import Introduction from './components/introduction';
 import About from './components/about';
 import Timeline from './components/timeline';
 import SidebarMobile from './components/sidebar-mobile';
+import TimelineMobile from './components/timeline-mobile';
 
 
 import './App.css';
@@ -33,6 +34,7 @@ class App extends Component {
       <div id="colorlib-page" >
           <div id="container-wrap">
             <SidebarMobile></SidebarMobile>
+            <TimelineMobile></TimelineMobile>
           </div>
       </div>
         
