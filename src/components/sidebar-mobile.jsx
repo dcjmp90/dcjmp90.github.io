@@ -33,7 +33,7 @@ export default class Sidebar extends Component {
                                     <a href="https://www.instagram.com/perry.jon.m/" target="_blank" className="icon-links-mobile" ><i className="icon-instagram" /></a>
                                 </div>
                                 <div className="div-icon">
-                                    <a href="https://wwww.linkedin.com/in/perryjon/" target="_blank" className="icon-links-mobile" ><i className="icon-linkedin2" /></a>
+                                    <a href="https://www.linkedin.com/in/perryjon/" target="_blank" className="icon-links-mobile" ><i className="icon-linkedin2" /></a>
                                 </div>
                                 <div className="div-icon">
                                 <a href="https://github.com/dcjmp90" target="_blank" className="icon-links-mobile"  ><i className="icon-github"></i></a>

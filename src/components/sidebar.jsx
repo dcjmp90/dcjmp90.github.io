@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Sidebar extends Component {
+export default class SidebarMobile extends Component {
     render() {
         return (
             <div>
@@ -33,7 +33,7 @@ export default class Sidebar extends Component {
                                     <a href="https://www.instagram.com/perry.jon.m/" target="_blank" className="icon-links" ><i className="icon-instagram" /></a>
                                 </div>
                                 <div className="div-icon">
-                                    <a href="https://wwww.linkedin/in/perryjon/" target="_blank" className="icon-links" ><i className="icon-linkedin2" /></a>
+                                    <a href="https://www.linkedin.com/in/perryjon/" target="_blank" className="icon-links" ><i className="icon-linkedin2" /></a>
                                 </div>
                                 <div className="div-icon">
                                 <a href="https://github.com/dcjmp90" target="_blank" className="icon-links"  ><i className="icon-github"></i></a>
