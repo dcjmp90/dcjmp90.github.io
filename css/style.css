@@ -11,6 +11,23 @@
 *	ANYTHING NEW IS HERE
 *
 * ======================================================= */
+.togglelist{
+  visibility: visible;
+} 
+
+#iconone{
+  background: purple;
+}
+#icontwo{
+  background: rgb(20, 200, 10);
+}
+#iconfour{
+  background: rgb(20, 10, 200);
+}
+.togglelist, .timeline-icon.togglelist.toggle{
+  visibility: visible;
+  
+}
 
 #button {
   display: inline-block;
@@ -872,7 +889,6 @@ body.offcanvas {
   display: block;
   width: 40px;
   height: 40px;
-  background:  #f15a22;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1758,3 +1774,4 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
