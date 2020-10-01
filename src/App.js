@@ -28,9 +28,9 @@ class App extends Component {
         </div>
       )
     }
-    if (isMobile){
+    return (
       <div>Mobile App Coming soon!</div>
-    }
+    )
   }
 }
 
