@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export default class Sidebar extends Component {
     render() {
         return (
-            <div>
+            <div style={{justifyContent:'flex-end', height:'100%', paddingBottom:'30%', verticalAlign:'center'}}>
                 <div>
                     
-                    <aside id="colorlib-aside-mobile" className="border js-fullheight" style={{overflow: 'hidden'}}>
+                    <aside id="colorlib-aside-mobile" className="border" style={{overflow: 'hidden'}}>
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
                             <h1 id="colorlib-logo-mobile"><a href="index.html">Jonathan Perry</a></h1>
@@ -41,9 +41,10 @@ export default class Sidebar extends Component {
                             </div>
                         </nav>
                         <div className="text-center">
-                            <span className="email">****Mobile Version****</span>
-                            <span className="email">Use a Laptop/Desktop for a better experience!</span>
-                            <span className="email">Mobile site still in the works!</span>
+                            <span className="email">SCROLL DOWN FOR MORE CONTENT</span>
+                            <div class="text-center arrow bounce">
+                                <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                            </div>
                         </div>
                     </aside>
                 </div>
