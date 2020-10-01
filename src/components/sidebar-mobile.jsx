@@ -40,6 +40,11 @@ export default class Sidebar extends Component {
                                 </div>
                             </div>
                         </nav>
+                        <div className="text-center">
+                            <span><p>--Mobile Version--</p></span>
+                            <span><p style={{fontSize:'6'}}>Use a Laptop/Desktop for a better experience!</p></span>
+                            <span><p style={{fontSize:'6'}}>Mobile site still in the works!</p></span>
+                        </div>
                     </aside>
                 </div>
             </div>
