@@ -9,6 +9,7 @@ import Sidebar from './components/sidebar';
 import Introduction from './components/introduction';
 import About from './components/about';
 import Timeline from './components/timeline';
+import SidebarMobile from './components/sidebar-mobile';
 
 
 import './App.css';
@@ -17,10 +18,10 @@ class App extends Component {
   render() {
     if (isBrowser){
       return (
-        <div id="colorlib-page" style={{overflow: 'hidden'}}>
+        <div id="colorlib-page">
           <div id="container-wrap">
             <Sidebar></Sidebar>
-            <div id="colorlib-main" style={{overflow: 'hidden'}}>
+            <div id="colorlib-main">
               <Introduction></Introduction>
               <Timeline></Timeline>
             </div>
@@ -29,7 +30,12 @@ class App extends Component {
       )
     }
     return (
-      <div>Mobile App Coming soon!</div>
+      <div id="colorlib-page" >
+          <div id="container-wrap">
+            <SidebarMobile></SidebarMobile>
+          </div>
+      </div>
+        
     )
   }
 }
