@@ -31,6 +31,16 @@
 				icon.css("background", "rgb(20, 200, 10)");
 			}
 		});
+		$("#clickedthree").click(function (){
+			var icon = $("#iconthree");
+			var color = icon.css("background").split(")")[0]+")";
+			console.log()
+			if (color == "rgb(200, 20, 10)") {
+				icon.css("background", "#f15a22");
+			} else {
+				icon.css("background", "rgb(200, 20, 10)");
+			}
+		});
 		$("#clickedfour").click(function (){
 			var icon = $("#iconfour");
 			var color = icon.css("background").split(")")[0]+")";
