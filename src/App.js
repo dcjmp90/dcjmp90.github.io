@@ -31,9 +31,11 @@ class App extends Component {
       )
     }
     return (
-      <div id="colorlib-page" >
-          <div id="container-wrap">
-            <SidebarMobile></SidebarMobile>
+      <div id="colorlib-page height">
+          <div id="container-wrap height">
+            <div id="height">
+              <SidebarMobile></SidebarMobile>
+            </div>
             <TimelineMobile></TimelineMobile>
           </div>
       </div>

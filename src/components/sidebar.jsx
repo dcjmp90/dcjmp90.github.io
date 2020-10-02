@@ -10,7 +10,7 @@ export default class SidebarMobile extends Component {
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
                             <h1 id="colorlib-logo"><a href="index.html">Jonathan Perry</a></h1>
-                            <span className="email"><i className="icon-mail"></i> dcjmp90@gmail.com</span>
+                            <span className="email"><i className="icon-mail"></i> jon@jonperry.dev</span>
                             <span className="number"><i className="icon-phone"></i> +1 775 283 8248</span>
                         </div>
                         <nav id="colorlib-main-menu" role="navigation" className="navbar" style={{overflow: 'hidden'}}>

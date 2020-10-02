@@ -1,10 +1,15 @@
 ;(function () {
 	
 	'use strict';
+	const width  = window.innerWidth || document.documentElement.clientWidth || 
+		document.body.clientWidth;
+	const height = window.innerHeight|| document.documentElement.clientHeight|| 
+		document.body.clientHeight;
 
-
+	console.log(width, height);
 	var btn = $('#button');
-
+	$("body").css("min-hieght",height);
+	$("body").css("height", height);
 	$(document).ready(function (){
 		$("#clickedone").click(function (){
 			var icon = $("#iconone");
