@@ -97,6 +97,7 @@
 
 .arrow{
   margin: 8% 0;
+  padding-bottom: 15%;
 }
 .bounce{
   -moz-animation: bounce 2s infinite;
