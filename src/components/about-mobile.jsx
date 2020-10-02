@@ -24,8 +24,10 @@ export default class AboutMobile extends Component {
                                                 </div>
                                                 
                                                 <img src='/images/eyepreds.gif' alt="" style={{width:'100%'}}></img>
+                                                <img src='/images/berlin.jpg' alt="" style={{width:'100%'}}></img>
                                                 <img src='/images/carpreds.gif' alt="" style={{width:'100%'}}></img>
-                                                <p style={{margin:'0 2% 2% 2%'}}>
+                                                <br/>
+                                                <p style={{margin:'0 2% 2% 2%', paddingTop:'10px'}}>
                                                     I'm currently exploring the capabilities of Real-Time Low Memory Traffic Neural Networks 
                                                     for Deep Learning and exploring new ways of balancing class-wise imbalanced data.  
                                                 </p>
