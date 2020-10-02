@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export default class Sidebar extends Component {
     render() {
         return (
-            <div style={{height:'100%', paddingBottom:'0'}}>
+            <div style={{height:'100%', paddingBottom:'0', float:'center', alignContent:'center'}}>
                 <div>
                     
-                    <aside id="colorlib-aside-mobile" className="border" style={{overflow: 'hidden'}}>
+                    <aside id="colorlib-aside-mobile" className="border" style={{float:'center',overflow: 'hidden'}}>
                         <div className="text-center">
                             <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
                             <h1 id="colorlib-logo-mobile"><a href="index.html">Jonathan Perry</a></h1>
@@ -17,9 +17,9 @@ export default class Sidebar extends Component {
                             <div id="navbar" className="collapse">
                                 <ul>
                                     <li className="active"><a href="#" data-nav-section="home">Introduction</a></li>
-                                    {/*<li><a href="#" data-nav-section="about">About</a></li>
-                                    <li><a href="#" data-nav-section="projects">Projects</a></li>
-                      <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
+                                    <li><a href="#" data-nav-section="about">Current Research</a></li>
+                                   {/* <li><a href="#" data-nav-section="projects">Projects</a></li>
+                                        <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                                     <li><a href="#" data-nav-section="timeline">Professional Timeline</a></li>
                                 </ul>
                             </div>

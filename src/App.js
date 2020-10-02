@@ -11,6 +11,7 @@ import About from './components/about';
 import Timeline from './components/timeline';
 import SidebarMobile from './components/sidebar-mobile';
 import TimelineMobile from './components/timeline-mobile';
+import AboutMobile from './components/about-mobile';
 
 
 import './App.css';
@@ -31,11 +32,12 @@ class App extends Component {
       )
     }
     return (
-      <div id="colorlib-page height">
-          <div id="container-wrap height">
-            <div id="height">
+      <div id="colorlib-page">
+          <div id="container-wrap">
+            <div>
               <SidebarMobile></SidebarMobile>
             </div>
+            <AboutMobile></AboutMobile>
             <TimelineMobile></TimelineMobile>
           </div>
       </div>
