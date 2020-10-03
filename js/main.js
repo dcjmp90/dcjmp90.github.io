@@ -7,10 +7,29 @@
 		document.body.clientHeight;
 
 	console.log(width, height);
+	
+	
+	
+
+	
 	var btn = $('#button');
 	$("body").css("min-hieght",height);
 	$("body").css("height", height);
 	$(document).ready(function (){
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			items:1,
+			loop:false,
+			autoplay:true,
+			autoplayTimeout:2150,
+			slideSpeed: 800,
+			mouseDrag: true,
+			paginationSpeed: 500,
+			autoplayHoverPause:true,
+		
+		});
+
+
 		$("#clickedone").click(function (){
 			var icon = $("#iconone");
 			var color = icon.css("background").split(")")[0]+")";
