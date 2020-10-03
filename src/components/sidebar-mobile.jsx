@@ -24,6 +24,24 @@ export default class Sidebar extends Component {
                                 </ul>
                             </div>
                         </nav>
+                       <div className="owl-carousel" style={{textAlign:"center", fontFamily: 'monospace'}}>
+                           <div>
+                               HELLO! <span>&#128075;</span>
+                           </div>
+                           <div>
+                               I'm Jon Perry
+                           </div>
+                           <div>
+                               Computer Vision Researcher
+                           </div>
+                           <div>
+                               Graduate Student - UTSA
+                           </div>
+                           <div>
+                               Scroll down for more about me!
+                           </div>
+                       </div>
+                       
                         <nav id="colorlib-main-menu-mobile" style={{overflow: 'hidden', textAlign: "center"}}>
                             <div className="icon-row">
                                 <div className="div-icon">
@@ -41,7 +59,7 @@ export default class Sidebar extends Component {
                             </div>
                         </nav>
                         <div className="text-center">
-                            <span className="email">SCROLL DOWN FOR MORE CONTENT</span>
+                            {/*<span className="email">SCROLL DOWN FOR MORE CONTENT</span>*/}
                             <div className="text-center arrow bounce">
                                 <a className="fa fa-arrow-down fa-2x" href="#"></a>
                             </div>
