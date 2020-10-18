@@ -62,7 +62,28 @@ export default class Timeline extends Component {
                             </article>
                             <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                 <div className="timeline-entry-inner">
-                                    <div className="timeline-icon color-6">
+                                    <div className="timeline-icon color-3">
+                                        <i className="fa fa-filter" />
+                                    </div>
+                                    <div className="timeline-label">
+                                        <h2><a href="#"> Teaching Assistant -  University of Texas at San Antonio</a> <span>Aug 2017 - May 2020</span></h2>
+                                        <ul>
+                                        <li>
+                                            <p> <b> Instructed Upper Divsion Courses </b> -  1:1 instruction and in group settings. Application Programming (OOP - Java). Artificial Intelligence. Computer Org (Assembly) </p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Reinforcing Instruction</b> - Created better workflow for students by revising assingments. Organized preparation for exams outside of lecture. </p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Accountability</b> Navigated the examination material on my own to ensure good fit for the students. Routed and communicated concerns from teacher to learner to ensure high quality and standards.</p>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </article>
+                            <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                <div className="timeline-entry-inner">
+                                    <div className="timeline-icon color-2">
                                         <i className="fa fa-filter" />
                                     </div>
                                     <div className="timeline-label">

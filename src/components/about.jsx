@@ -4,56 +4,122 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                
-               
                 <section className="colorlib-about" data-section="about">
                     <div className="colorlib-narrow-content">
                         <div className="row">
                             <div className="col-md-12">
-                                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                                    <div className="col-md-12">
-                                        <div className="about-desc" style={{alignItems: 'center', margin:'auto'}}>
-                                            <span className="heading-meta">Personal Life</span>
-                                            <p>Caffeine Fiend | Foodie | Fitness | Swimming | Computer Builds | Audiophile | Video Games | Avid Movie Goer | Arcade Lover</p>
-                                            <span className="heading-meta">Summary</span>
-                                            <p>
-                                                As much as I love going to a family owned restaurant or a &#127864; lavish dinner out, I love cooking! 	&#127859;
-                                                My favorite dish is &#127481;&#127469;Thai food, and I cook many of the popular dishes myself. &#128522; I love all kinds of spicy foods&#127798;&#65039;&#127798;&#65039;&#127798;&#65039; 
-                                                <br /><br/>
-                                                I love to not only program software, but I love to build custom &#128187; computers. My instagram&#128247;  has a story about it!
-                                            </p>
+                                <div style={{fontSize:'small', width:'100%', textAlign:'center', float:'left', alignself:'center', alignItems:'center', clear:'both', paddingTop:'5%'}}>
+                                    <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                        <div className="col-md-6">
+                                            <div className="about-desc">
+                                                <div className="col-md-12 col-md-offset-6 text-center animate-box">
+                                                    <div className="services color-4">
+                                                        <span className="icon">
+                                                            <i className="fa fa-eye fa-3x"></i>
+                                                        </span>
+                                                        <div className="desc">
+                                                            <div style={{width:'100%',height:'.5',paddingbottom:'100%',position:'relative', textAlign:'left'}}>
+                                                                    <div style={{textAlign:'center'}}>
+                                                                        <h3>QUICK SUMMARY</h3>
+                                                                    </div>
+                                                            
+                                                                    <img src='/images/eyepreds.gif' alt="" style={{width:'100%'}}></img>
+                                                                    <img src='/images/berlin.jpg' alt="" style={{width:'100%'}}></img>
+                                                                    <img src='/images/carpreds.gif' alt="" style={{width:'100%'}}></img>
+                                                                    <br/>
+                                                                    <p style={{margin:'0 2% 2% 2%', paddingTop:'10px'}}>
+                                                                        I'm currently exploring the capabilities of Real-Time Low Memory Traffic Neural Networks 
+                                                                        for Deep Learning and exploring new ways of balancing class-wise imbalanced data.  
+                                                                    </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-                <hr />
-                <section className="colorlib-about" data-section="about">
+     
                     <div className="colorlib-narrow-content">
                         <div className="row">
                             <div className="col-md-12">
-                                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                                    <div className="col-md-12">
-                                        <div className="about-desc">
-                                            <span className="heading-meta">Professional</span>
-                                            <p> Air Force Veteran | Computer Vision Researcher | Software Developer | Machine Learning Engineer</p>
-                                            <hr />
-                                            <span className="heading-meta">Summary</span>
-                                            <p> Enthusiastic researcher with a solid background in the Deep Learning realm, including current 
-                                                and ongoing research in leading edge applications of Computer Vision, specifically Semantic Segmentation. 
-                                                First author of two publications to conferences in Computer Vision in Fall 2019 and Summer 2020. 
-                                                Research team member for the CONsortium on Nuclear sECurity Technologies (CONNECT) in collaboration 
-                                                with Argonne National Laboratory and Los Alamos National Laboratory. 
-                                            </p>
+                                <div style={{fontSize:'small', width:'100%', textAlign:'center', float:'left', alignself:'center', alignItems:'center', clear:'both', paddingTop:'5%'}}>
+                                    <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                        <div className="col-md-6">
+                                            <div className="about-desc">                                                
+                                                <div className="col-md-12 col-md-offset-6 text-center animate-box" data-animate-effect="fadeInLeft">
+                                                        <div className="services color-5">
+                                                            <span className="icon">
+                                                                <i className="fa fa-graduation-cap fa-3x"></i>
+                                                            </span>
+                                                            <div className="desc">
+                                                                <div style={{textAlign:'center'}}>
+                                                                    <h3>EYESEG</h3>
+                                                                </div>
+                                                                <div style={{width:'100%',height:'1',paddingbottom:'100%', paddingTop:'0',position:'relative', textAlign:'left'}}>
+                                                                    <img src='/images/eyeseg.jpg' alt="" style={{width:'100%'}}></img>
+                                                                    <p style={{margin:'0 2% 2% 2%'}}>
+                                                                        We propose EyeSeg, an encoder-decoder architecture designed 
+                                                                        for accurate pixel-wise semantic segmentation on annotated data 
+                                                                        where labeled data is limited. 
+                                                                    </p>
+                                                                    <p>
+                                                                        <i className="fa fa-sticky-note fa-1x"></i><a href="https://openeyes-workshop.github.io/downloads/openeyes2020_jonathan_perry_eyeseg_fast_and_efficient_few_shot_semantic_segmentation.pdf" style={{paddingLeft:'10px'}}>Get the paper Here</a>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>                                   
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+
+
+                    <div className="colorlib-narrow-content">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div style={{fontSize:'small', width:'100%', textAlign:'center', float:'left', alignself:'center', alignItems:'center', clear:'both', paddingTop:'5%'}}>
+                                    <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                        <div className="col-md-6">
+                                            <div className="about-desc">                                                
+                                                <div className="col-md-12 col-md-offset-6 text-center animate-box">
+                                                    <div className="services color-6">
+                                                        <span className="icon">
+                                                            <i className="fa fa-graduation-cap fa-3x"></i>
+                                                        </span>
+                                                        <div className="desc">
+                                                            <div style={{textAlign:'center'}}>
+                                                                <h3>MINENET</h3>
+                                                            </div>
+                                                            <div style={{width:'100%',height:'1',paddingbottom:'100%', paddingTop:'0',position:'relative', textAlign:'left'}}>
+                                                                <img src='/images/MinENet.png' alt="" style={{width:'100%'}}></img>
+                                                                <p style={{margin:'0 2% 2% 2%'}}>
+                                                                    Our encoder-decoder architecture improves accuracy of multi-class segmentation of 
+                                                                    eye features in this large-scale high-resolution 
+                                                                    dataset, while also providing a design that is lightweight and efficient.
+                                                                </p>
+                                                                <p>
+                                                                    <i className="fa fa-sticky-note fa-1x"></i><a href="https://openaccess.thecvf.com/content_ICCVW_2019/papers/OpenEDS/Perry_MinENet_A_Dilated_CNN_for_Semantic_Segmentation_of_Eye_Features_ICCVW_2019_paper.pdf" style={{paddingLeft:'10px'}}>Get the paper Here</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>    
             </div>
         )
     }

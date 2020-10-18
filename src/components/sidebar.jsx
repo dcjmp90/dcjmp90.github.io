@@ -17,8 +17,8 @@ export default class SidebarMobile extends Component {
                             <div id="navbar" className="collapse">
                                 <ul>
                                     <li className="active"><a href="#" data-nav-section="home">Introduction</a></li>
-                                    {/*<li><a href="#" data-nav-section="about">About</a></li>
-                                    <li><a href="#" data-nav-section="projects">Projects</a></li>
+                                    <li><a href="#" data-nav-section="about">About</a></li>
+                                    {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
                       <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                                     <li><a href="#" data-nav-section="timeline">Professional Timeline</a></li>
                                 </ul>

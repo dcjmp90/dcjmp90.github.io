@@ -71,6 +71,23 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
+              <li style={{background: 'url(/images/IMG_CROPPED.jpg)', backgroundSize: 'cover' }}>
+                <div className="overlay" />
+                <div className="container-fluid" style={{backgroundColor: 'rgba(0,0,0,.5)'}}>
+                  <div className="row">
+                    <div className="col-md-12 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner">
+                        <div className="desc" style={{textAlign: 'left', alignContent: 'left', position: 'relative'}}>
+                          <div className="desc">
+                            <h1 style={{color: 'white', fontSize: '40px'}}>MY RESUME</h1>
+                            <p className="border-links"><a className="btn btn-primary btn-learn border-links" href="https://drive.google.com/file/d/1m8EbnHUdD6XMxD0vWa2TqkXfit3Ad7rr/view?usp=sharing" target="_blank">Resume PDF <i className="fa fa-file fa-2x" style={{paddingtop: '10px'}}/></a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </section>

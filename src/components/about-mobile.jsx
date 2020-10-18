@@ -53,7 +53,7 @@ export default class AboutMobile extends Component {
                                                 <p style={{margin:'0 2% 2% 2%'}}>
                                                     We propose EyeSeg, an encoder-decoder architecture designed 
                                                     for accurate pixel-wise semantic segmentation on annotated data 
-                                                    where labeled data in limited. 
+                                                    where labeled data is limited. 
                                                 </p>
                                                 <p>
                                                     <i className="fa fa-sticky-note fa-1x"></i><a href="https://openeyes-workshop.github.io/downloads/openeyes2020_jonathan_perry_eyeseg_fast_and_efficient_few_shot_semantic_segmentation.pdf" style={{paddingLeft:'10px'}}>Get the paper Here</a>
