@@ -12,6 +12,7 @@ import Timeline from './components/timeline';
 import SidebarMobile from './components/sidebar-mobile';
 import TimelineMobile from './components/timeline-mobile';
 import AboutMobile from './components/about-mobile';
+import SpotifyPlayer from 'react-spotify-web-playback';
 
 
 import './App.css';
@@ -22,7 +23,10 @@ class App extends Component {
       return (
         <div id="colorlib-page">
           <div id="container-wrap">
-            <Sidebar></Sidebar>
+            <Sidebar><SpotifyPlayer token="BQAI_7RWPJuqdZxS-I8XzhkUi9RKr8Q8UUNaJAHwWlpIq6..."
+                                    uris={['spotify:artist:6HQYnRM4OzToCYPpVBInuU']}>
+                      </SpotifyPlayer>
+            </Sidebar>
             <div id="colorlib-main">
               <Introduction></Introduction>
               <About></About>

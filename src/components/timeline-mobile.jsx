@@ -208,7 +208,7 @@ export default class TimelineMobile extends Component {
                                             <div className="panel-heading" role="tab" id="collapseListGroupHeading4" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
                                                 <h4 className="panel-title" style={{fontSize:'small', backgroundcolor:'rgba(0,0,0,0.08)'}}><br/>
                                                     <a className="collapsed togglelist toggle" id="clickedfour" data-toggle="collapse" href="#collapseListGroup4" aria-expanded="false" aria-controls="collapseListGroup4" style={{fontSize:'small'}}>
-                                                    Machine Learning Engineer - Starup<h5 style={{fontSize:'x-small'}} className="company-title"><br/>FunnelAI<br/><br/><span className="company-title" style={{fontSize: 'x-small', float:'left'}}>Jan 2019 - June 2019</span></h5> 
+                                                    Machine Learning Engineer - Startup<h5 style={{fontSize:'x-small'}} className="company-title"><br/>FunnelAI<br/><br/><span className="company-title" style={{fontSize: 'x-small', float:'left'}}>Jan 2019 - June 2019</span></h5> 
                                                     </a>
                                                 </h4>
                                             </div>
@@ -222,6 +222,47 @@ export default class TimelineMobile extends Component {
                                                     </li>
                                                     <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
                                                     <p style={{fontSize:'x-small'}}> <b> Team Building </b> <br/> Engaged in Code Reviews<br/>Walked Full Stack Engineers Through the ML pipline<br/>Stand Ups With Jira</p>
+                                                    </li>
+                                                </ul>
+                                                <div className="panel-footer" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </article>
+                            {/**
+                             * 
+                             * 
+                             * Military experience
+                             * 
+                             * 
+                             */}
+                             <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                <div className="timeline-entry-inner panel-group">
+                                    <div className="timeline-icon togglelist toggle" id="iconfive">
+                                        <i className="fa fa-fighter-jet"/>
+                                    </div>
+
+                                    <div className="timeline-label panel-group " role="tablist" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                        <div className="panel panel-default timeline-title" style={{width:'100%'}}>
+                                            <div className="panel-heading" role="tab" id="collapseListGroupHeading5" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                <h4 className="panel-title" style={{fontSize:'small', backgroundcolor:'rgba(0,0,0,0.08)'}}><br/>
+                                                    <a className="collapsed togglelist toggle" id="clickedfive" data-toggle="collapse" href="#collapseListGroup5" aria-expanded="false" aria-controls="collapseListGroup5" style={{fontSize:'small'}}>
+                                                    Security Forces<h5 style={{fontSize:'x-small'}} className="company-title"><br/>United States Air Force<br/><br/><span className="company-title" style={{fontSize: 'x-small', float:'left'}}>Feb 2010 - Feb 2016</span></h5> 
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseListGroup5" className="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading5" style={{backgroundColor:'transparent'}}>
+                                                <ul className="list-group" style={{backgroundColor:'transparent'}}>
+                                                    <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                    <p style={{fontSize:'x-small', backgroundColor:'transparent'}}> <b> High Visibility & High Impact </b> <br/>Fly away and close proximity security details for presidential assets and personnel.</p>
+                                                    </li>
+                                                    <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                    <p style={{fontSize:'x-small'}}> <b> Operations Management </b> <br/>Base defense operations as a law enforcement and security dispatcher.</p>
+                                                    </li>
+                                                    <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                    <p style={{fontSize:'x-small'}}> <b> Team Building </b> <br/> Ensured physical readiness.<br/>Led physical training for the unit.</p>
                                                     </li>
                                                 </ul>
                                                 <div className="panel-footer" style={{backgroundColor:'rgba(0,0,0,.08)'}}>

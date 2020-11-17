@@ -63,7 +63,7 @@ export default class Timeline extends Component {
                             <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                 <div className="timeline-entry-inner">
                                     <div className="timeline-icon color-3">
-                                        <i className="fa fa-filter" />
+                                        <i className="fa fa-university" />
                                     </div>
                                     <div className="timeline-label">
                                         <h2><a href="#"> Teaching Assistant -  University of Texas at San Antonio</a> <span>Aug 2017 - May 2020</span></h2>
@@ -87,7 +87,7 @@ export default class Timeline extends Component {
                                         <i className="fa fa-filter" />
                                     </div>
                                     <div className="timeline-label">
-                                        <h2><a href="#"> Machine Learning Engineer  -  FunnelAI</a> <span>Jan 2019 - June 2019</span></h2>
+                                        <h2><a href="#"> Machine Learning Engineer (Startup)  -  FunnelAI</a> <span>Jan 2019 - June 2019</span></h2>
                                         <ul>
                                         <li>
                                             <p> <b> Natural Language Processing </b> -  Constructed end to end Machine Learning pipelines for NLP classifications. </p>
@@ -102,9 +102,24 @@ export default class Timeline extends Component {
                                     </div>
                                 </div>
                             </article>
-                            <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                            <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                 <div className="timeline-entry-inner">
-                                    <div className="timeline-icon color-none">
+                                    <div className="timeline-icon color-4" style={{backgroundColor:'blue'}}>
+                                        <i className="fa fa-fighter-jet" />
+                                    </div>
+                                    <div className="timeline-label">
+                                        <h2><a href="#"> Security Forces  -  United States Air Force</a> <span>Feb 2010 - Feb 2016</span></h2>
+                                        <ul>
+                                        <li>
+                                            <p> <b> High Visibility & High Impact </b> -  Conducted both fly away and close proximity security duties for Air Force One and presidential assets. </p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Operations Management </b> - Base defense operations as a law enforcement and security dispatcher. </p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Team Building </b> Ensured physical readiness as a physical trainer for the unit</p>
+                                        </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </article>

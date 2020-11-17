@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SpotifyPlayer from 'react-spotify-web-playback';
 
 export default class SidebarMobile extends Component {
     render() {
@@ -40,8 +41,11 @@ export default class SidebarMobile extends Component {
                                 </div>
                             </div>
                         </nav>
+                    
                     </aside>
+                    
                 </div>
+                
             </div>
         )
     }

@@ -24,7 +24,7 @@ export default class AboutMobile extends Component {
                                                 </div>
                                                 
                                                 <img src='/images/eyepreds.gif' alt="" style={{width:'100%'}}></img>
-                                                <img src='/images/berlin.jpg' alt="" style={{width:'100%'}}></img>
+                                                
                                                 <img src='/images/carpreds.gif' alt="" style={{width:'100%'}}></img>
                                                 <br/>
                                                 <p style={{margin:'0 2% 2% 2%', paddingTop:'10px'}}>
