@@ -64,6 +64,16 @@
 			var icon = $("#iconfour");
 			var color = icon.css("background").split(")")[0]+")";
 			console.log()
+			if (color == "rgb(20, 10, 20)") {
+				icon.css("background", "#f15a22");
+			} else {
+				icon.css("background", "rgb(20, 10, 20)");
+			}
+		});
+		$("#clickedfive").click(function (){
+			var icon = $("#iconfive");
+			var color = icon.css("background").split(")")[0]+")";
+			console.log()
 			if (color == "rgb(20, 10, 200)") {
 				icon.css("background", "#f15a22");
 			} else {
