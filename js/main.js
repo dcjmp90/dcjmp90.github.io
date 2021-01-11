@@ -1,18 +1,19 @@
+
+
 ;(function () {
+
+	
 	
 	'use strict';
 	const width  = window.innerWidth || document.documentElement.clientWidth || 
 		document.body.clientWidth;
 	const height = window.innerHeight|| document.documentElement.clientHeight|| 
 		document.body.clientHeight;
-
-	console.log(width, height);
 	
 	
-	
-
-	
+	var nums = ["55%", "90%", "65%", "80%", "75%", "68%", "45%","60%","90%"];
 	var btn = $('#button');
+	var bars = $('#wrap');
 	$("body").css("min-hieght",height);
 	$("body").css("height", height);
 	$(document).ready(function (){
@@ -28,6 +29,7 @@
 			autoplayHoverPause:true,
 		
 		});
+		
 
 
 		$("#clickedone").click(function (){
@@ -88,6 +90,7 @@
 		} else {
 			btn.removeClass('show');
 		}
+		
 	});
 
 
@@ -96,6 +99,33 @@
 		e.preventDefault();
 		$('html, body').animate({scrollTop:0}, '300');
 	});
+
+	bars.on('inview', function(event, isInView) {
+		if (isInView) {
+			console.log("its in view");
+		  // element is now visible in the viewport
+		  var elems = $('.bar');
+		  var counter = 0;
+		  elems.each(function(elem){
+			elem.animate({'width':nums[counter]}, "4s","ease");
+			console.log(elem);
+			console.log(counter);
+			counter++;
+		  });
+		} else {
+		  // element has gone out of viewport
+		  
+		  var elems = $('.bar');
+		  var counter = 0;
+		  elems.forEach(function(elem){
+			elem.animate({'width':"0%"}, "4s","ease");
+			console.log(elem);
+			console.log(counter);
+			counter++;
+		  });
+		}
+	  });
+	
 
 
 
@@ -410,3 +440,4 @@
 
 
 }());
+
