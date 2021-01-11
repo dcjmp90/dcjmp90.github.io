@@ -177,8 +177,8 @@ export default class About extends Component {
                                                                     <h3>Professional Skills</h3>
                                                                 </div>
                                                                 
-                                                                <div className="wrap" style={{fontSize:'12px', fontWeight:'300', letterSpacing:'.2px'}}>
-                                                                    <div className="bar">
+                                                                <div className="wrap" id="wrap" style={{fontSize:'12px', fontWeight:'300', letterSpacing:'.2px'}}>
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>Java</h3>
                                                                         <span></span>
                                                                     </div>
@@ -186,50 +186,50 @@ export default class About extends Component {
 
 
                                                                 
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>Python 3</h3>
                                                                         <span></span>
                                                                     </div>
                                                              
 
                                                                 
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>TensorFlow 2</h3>
                                                                         <span></span>
                                                                     </div>
                                                             
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>Keras</h3>
                                                                         <span></span>
                                                                     </div>
 
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>PyTorch</h3>
                                                                         <span></span>
                                                                     </div>
                                                            
 
                                                                 
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>C Programming</h3>
                                                                         <span></span>
                                                                     </div>
                                                                 
                                                                 
                                                               
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>Front-End Web Dev</h3>
                                                                         <span></span>
                                                                     </div>
                                                               
 
                                                           
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>Bash</h3>
                                                                         <span></span>
                                                                     </div>
 
-                                                                    <div className="bar">
+                                                                    <div className="bar" id="bar-prep">
                                                                         <h3>Machine Learning <br/> & Deep Learning</h3>
                                                                         <span></span>
                                                                     </div>
