@@ -77,7 +77,7 @@
 			}
 		});
 		$("#clickedfour").click(function (){
-			var icon = $("#iconfour");
+			var icon = $(".numfour");
 			var color = icon.css("background").split(")")[0]+")";
 			console.log()
 			if (color == "rgb(20, 10, 20)") {
