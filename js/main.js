@@ -17,6 +17,20 @@
 	$("body").css("min-hieght",height);
 	$("body").css("height", height);
 	$(document).ready(function (){
+		var clicks = 1;
+		$(".blog-entry").hide();
+		$(".blog-entry").slice(0, 3).show();
+		if ($(".blog-entry:hidden").length != 0) {
+			$("#loadMore").show();
+		}		
+		$("#loadMore").on('click', function (e) {
+			e.preventDefault();
+			$(".blog-entry:hidden").slice(0, 3).slideDown();
+			clicks+=1;
+			if ($(".blog-entry:hidden").length == 0) {
+				$("#loadMore").fadeOut('slow');
+			}
+		});
 		var owl = $('.owl-carousel');
 		owl.owlCarousel({
 			items:1,
