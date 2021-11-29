@@ -96,6 +96,16 @@
 				icon.css("background", "rgb(20, 10, 200)");
 			}
 		});
+		$("#clickedsix").click(function (){
+			var icon = $(".numsix");
+			var color = icon.css("background").split(")")[0]+")";
+			console.log()
+			if (color == "rgb(20, 10, 20)") {
+				icon.css("background", "#f15a22");
+			} else {
+				icon.css("background", "rgb(20, 10, 20)");
+			}
+		});
 	});
 
 	$(window).scroll(function() {
