@@ -15,10 +15,10 @@ export default class Blog extends Component {
 				<div className="row">
 					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 					<div className="blog-entry">
-						<a href="blog.html" className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+						<a href="https://jonperry.dev/blog/2020/01/31/man-must-explore.html" className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
 						<div className="desc">
 							<span><small>Nov 28, 2021 </small> | <small> Computer Science</small> </span>
-							<h3><a href="blog.html">Blog of Software and Machine Learning Engineering</a></h3>
+							<h3><a href="https://jonperry.dev/blog/2020/01/31/man-must-explore.html">Blog of Software and Machine Learning Engineering</a></h3>
 							<p>Blog posts and webpage coming soon!</p>
 						</div>
 					</div>
