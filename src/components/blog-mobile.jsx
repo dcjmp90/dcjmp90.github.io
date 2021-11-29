@@ -13,13 +13,13 @@ export default class BlogMobile extends Component {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+					<div className="col-sm-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 					<div className="blog-entry">
-						<a href="blog.html" className="blog-img"><img src="images/blog-1.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+						<a href="https://jonperry.dev/blog/2021/11/29/a-dream-of-computer-science.html" className="blog-img"><img src="images/blog_post_my_journey.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
 						<div className="desc">
-							<span><small>Nov 28, 2021 </small> | <small> Computer Science</small> </span>
-							<h3><a href="blog.html">Blog of Software and Machine Learning Engineering</a></h3>
-							<p>Blog posts and webpage coming soon!</p>
+							<span><small>Nov 28, 2021 </small> | <small> My Journey</small> </span>
+							<h3><a href="https://jonperry.dev/blog/2021/11/29/a-dream-of-computer-science.html">My Journey of Attaining a Degree in Computer Science</a></h3>
+							<p>...Of course you want the change, who wouldn’t want better? It sounds amazing in theory, but the reality of it is a tough pill to swallow. This is my journey.</p>
 						</div>
 					</div>
 					</div>
