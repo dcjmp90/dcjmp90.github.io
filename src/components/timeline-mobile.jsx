@@ -251,7 +251,7 @@ export default class TimelineMobile extends Component {
 
                             <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                 <div className="timeline-entry-inner panel-group">
-                                    <div className="timeline-icon togglelist toggle" id="iconfour">
+                                    <div className="timeline-icon togglelist toggle numfour" id="iconfour">
                                         <i className="fa fa-filter"/>
                                     </div>
 
