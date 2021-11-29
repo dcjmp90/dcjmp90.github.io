@@ -8,19 +8,19 @@ export default class Sidebar extends Component {
                     
                     <aside id="colorlib-aside-mobile" className="border" style={{float:'center',overflow: 'hidden'}}>
                         <div className="text-center">
-                            <div className="author-img" style={{ backgroundImage: 'url(/images/about.jpg)' }} />
-                            <h1 id="colorlib-logo-mobile"><a href="index.html">Jonathan Perry</a></h1>
+                            <div className="author-img" style={{ backgroundImage: 'url(/images/profile.jpg)' }} />
+                            <h1 id="colorlib-logo-mobile"><a href="index.html">Jon Perry</a></h1>
                             <span className="email"><i className="icon-mail"></i> <a href="mailto:jon@jonperry.dev">jon@jonperry.dev</a></span>
                             <span className="number"><i className="icon-phone"></i> <a href="tel:1-775-283-8248">+1 775 283 8248</a> </span>
                         </div>
                         <nav id="colorlib-main-menu-mobile" role="navigation" className="navbar" style={{overflow: 'hidden'}}>
                             <div id="navbar" className="collapse">
                                 <ul>
-                                    <li className="active"><a href="#" data-nav-section="home">Introduction</a></li>
-                                    <li><a href="#" data-nav-section="about">Current Research</a></li>
+                                    <li className="active"><a href="#" data-nav-section="home">Intro</a></li>
+                                    <li><a href="#" data-nav-section="blog">Blog</a></li>
                                    {/* <li><a href="#" data-nav-section="projects">Projects</a></li>
                                         <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
-                                    <li><a href="#" data-nav-section="timeline">Professional Timeline</a></li>
+                                    <li><a href="#" data-nav-section="timeline">Timeline</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -32,10 +32,10 @@ export default class Sidebar extends Component {
                                I'm Jon Perry
                            </div>
                            <div>
-                               Computer Vision Researcher
+                               Machine Learning Engineer
                            </div>
                            <div>
-                               Graduate Student - UTSA
+                               Software Engineer
                            </div>
                            <div>
                                Scroll down for more about me!

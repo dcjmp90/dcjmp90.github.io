@@ -13,7 +13,7 @@ import SidebarMobile from './components/sidebar-mobile';
 import TimelineMobile from './components/timeline-mobile';
 import AboutMobile from './components/about-mobile';
 import SpotifyPlayer from 'react-spotify-web-playback';
-
+import BlogMobile from './components/blog-mobile';
 
 import './App.css';
 
@@ -40,7 +40,7 @@ class App extends Component {
             <div>
               <SidebarMobile></SidebarMobile>
             </div>
-            <AboutMobile></AboutMobile>
+            <BlogMobile></BlogMobile>
             <TimelineMobile></TimelineMobile>
           </div>
       </div>

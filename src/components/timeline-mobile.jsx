@@ -15,7 +15,59 @@ export default class TimelineMobile extends Component {
                 <div className="row">
                     <div className="col-sm-6" style={{width:'95%'}}>
                         <div className="timeline-centered">
+                        {/**
+                             * 
+                             * 
+                             * 
+                             * 
+                             * 
+                             * 
+                             * 
+                             * CODE FOR TC LABS JOB
+                             * 
+                             * 
+                             * 
+                             * 
+                             * 
+                             * 
+                             * 
+                             * 
+                             */
+                            }
+                        <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                <div className="timeline-entry-inner panel-group">
+                                    <div className="timeline-icon togglelist toggle numsix" id="iconfour">
+                                        <i className="fa fa-car"/>
+                                    </div>
 
+                                    <div className="timeline-label panel-group " role="tablist" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                        <div className="panel panel-default timeline-title" style={{width:'100%'}}>
+                                            <div className="panel-heading" role="tab" id="collapseListGroupHeading6" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                <h4 className="panel-title" style={{fontSize:'small', backgroundcolor:'rgba(0,0,0,0.08)'}}><br/>
+                                                    <a className="collapsed togglelist toggle" id="clickedsix" data-toggle="collapse" href="#collapseListGroup6" aria-expanded="false" aria-controls="collapseListGroup6" style={{fontSize:'small'}}>
+                                                    Machine Leaning Engineer<h5 style={{fontSize:'x-small'}} className="company-title"><br/>Toyota Connected <br/>North America<br/><span className="company-title" style={{fontSize: 'x-small', float:'left'}}><br/>April 2021 - present</span></h5> 
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseListGroup6" className="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading6" style={{backgroundColor:'transparent'}}>
+                                                <ul className="list-group" style={{backgroundColor:'transparent'}}>
+                                                    <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                    <p style={{fontSize:'x-small', backgroundColor:'transparent'}}> <b>Natural Language Processing</b> <br/> built/trained/tested/deployed Deep Learning models in TensorFlow for domain/intent classifications as well as context-aware intent classifications. <br/><br/>Utilized state-of-the-art research like BERT and experimental cost functions utilizing multiple distributions.</p>
+                                                    </li>
+                                                    <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                    <p style={{fontSize:'x-small'}}> <b> High Degree of Autonomy </b> <br/> Largely self-directed working environment where contributions made are self-appropriated or self-produced/created.</p>
+                                                    </li>
+                                                    <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                    <p style={{fontSize:'x-small'}}> <b> Self-directed Product Enhancement</b> <br/> Identified mathematical error in a primary loss function. <br/><br/>Implemented a scalable working solution for a proper loss function with backwards compatibility for possbile future needs.<br/><span>Improved accuracy of model.</span></p>
+                                                    </li>
+                                                </ul>
+                                                <div className="panel-footer" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </article>
                                {/**
                              * 
                              * 
@@ -46,7 +98,7 @@ export default class TimelineMobile extends Component {
                                             <div className="panel-heading" role="tab" id="collapseListGroupHeading1" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
                                                 <h4 className="panel-title" style={{fontSize:'small', backgroundcolor:'rgba(0,0,0,0.08)'}}><br/>
                                                     <a className="collapsed togglelist toggle" id="clickedone" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1" style={{fontSize:'small'}}>
-                                                    Computer Vision Researcher<h5 style={{fontSize:'x-small'}} className="company-title"><br/>University of Texas <br/>at San Antonio<br/><span className="company-title" style={{fontSize: 'x-small', float:'left'}}><br/>June 2019 - current</span></h5> 
+                                                    Computer Vision Researcher<h5 style={{fontSize:'x-small'}} className="company-title"><br/>University of Texas <br/>at San Antonio<br/><span className="company-title" style={{fontSize: 'x-small', float:'left'}}><br/>June 2019 - May 2021</span></h5> 
                                                     </a>
                                                 </h4>
                                             </div>
