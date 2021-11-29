@@ -7,7 +7,7 @@ import {
 } from "react-device-detect";
 import Sidebar from './components/sidebar';
 import Introduction from './components/introduction';
-import About from './components/about';
+import Blog from './components/blog';
 import Timeline from './components/timeline';
 import SidebarMobile from './components/sidebar-mobile';
 import TimelineMobile from './components/timeline-mobile';
@@ -23,13 +23,11 @@ class App extends Component {
       return (
         <div id="colorlib-page">
           <div id="container-wrap">
-            <Sidebar><SpotifyPlayer token="BQAI_7RWPJuqdZxS-I8XzhkUi9RKr8Q8UUNaJAHwWlpIq6..."
-                                    uris={['spotify:artist:6HQYnRM4OzToCYPpVBInuU']}>
-                      </SpotifyPlayer>
+            <Sidebar>
             </Sidebar>
             <div id="colorlib-main">
               <Introduction></Introduction>
-              <About></About>
+              <Blog></Blog>
               <Timeline></Timeline>
             </div>
           </div>

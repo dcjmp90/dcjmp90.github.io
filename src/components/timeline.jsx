@@ -15,13 +15,34 @@ export default class Timeline extends Component {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="timeline-centered">
+                        <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                <div className="timeline-entry-inner">
+                                    <div className="timeline-icon color-2">
+                                        <i className="fa fa-car" />
+                                    </div>
+                                    <div className="timeline-label">
+                                        <h2><a href="#"> Machine Learning Engineer - Toyota Connected North America </a> <span>2021-present</span></h2>
+                                        <ul>
+                                            <li>
+                                                <p><b>Natural Language Processing</b> - built/trained/tested/deployed Deep Learning models in TensorFlow for domain/intent classifications as well as context-aware intent classifications. Utilized state-of-the-art research like BERT and experimental cost functions utilizing multiple distributions.</p>    
+                                            </li>
+                                            <li>
+                                                <p> <b> High Degree of Autonomy </b> - Largely self-directed working environment where contributions made are self-appropriated or self-produced/created.</p>
+                                            </li>
+                                            <li>
+                                                <p> <b> Self-directed Product Enhancement</b> - Identified mathematical error in a primary loss function; Implemented a scalable working solution for a proper loss function with backwards compatibility for possbile future needs. -- Improved accuracy of model.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </article>
                             <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                 <div className="timeline-entry-inner">
                                     <div className="timeline-icon color-4">
                                         <i className="fa fa-desktop" />
                                     </div>
                                     <div className="timeline-label">
-                                        <h2><a href="#"> Computer Vision Researcher - University of Texas at San Antonio</a> <span>2019-present</span></h2>
+                                        <h2><a href="#"> Computer Vision Researcher - University of Texas at San Antonio</a> <span>2019-2021</span></h2>
                                         <ul>
                                             <li>
                                                 <p> <b> ICCV 2019 Publication </b> - oral presentation for OpenEDS workshop in Seoul, South Korea</p>
@@ -75,7 +96,7 @@ export default class Timeline extends Component {
                                             <p> <b> Reinforcing Instruction</b> - Created better workflow for students by revising assingments. Organized preparation for exams outside of lecture. </p>
                                         </li>
                                         <li>
-                                            <p> <b> Accountability</b> Navigated the examination material on my own to ensure good fit for the students. Routed and communicated concerns from teacher to learner to ensure high quality and standards.</p>
+                                            <p> <b> Accountability</b> - Navigated the examination material on my own to ensure good fit for the students.</p>
                                         </li>
                                         </ul>
                                     </div>
