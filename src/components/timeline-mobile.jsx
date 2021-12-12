@@ -58,7 +58,7 @@ export default class TimelineMobile extends Component {
                                                     <p style={{fontSize:'x-small'}}> <b> High Degree of Autonomy </b> <br/> Largely self-directed working environment where contributions made are self-appropriated or self-produced/created.</p>
                                                     </li>
                                                     <li className="list-group-item" style={{backgroundColor:'rgba(0,0,0,.08)'}}>
-                                                    <p style={{fontSize:'x-small'}}> <b> Self-directed Product Enhancement</b> <br/> Identified mathematical error in a primary loss function. <br/><br/>Implemented a scalable working solution for a proper loss function with backwards compatibility for possbile future needs.<br/><span>Improved accuracy of model.</span></p>
+                                                    <p style={{fontSize:'x-small'}}> <b> Self-directed Product Enhancement</b> <br/> Identified mathematical error in a key loss function. <br/><br/>Implemented a scalable working solution for a proper loss function with backwards compatibility for possbile future needs.<br/><span>Improved accuracy of model.</span></p>
                                                     </li>
                                                 </ul>
                                                 <div className="panel-footer" style={{backgroundColor:'rgba(0,0,0,.08)'}}>

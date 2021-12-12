@@ -30,7 +30,7 @@ export default class Timeline extends Component {
                                                 <p> <b> High Degree of Autonomy </b> - Largely self-directed working environment where contributions made are self-appropriated or self-produced/created.</p>
                                             </li>
                                             <li>
-                                                <p> <b> Self-directed Product Enhancement</b> - Identified mathematical error in a primary loss function; Implemented a scalable working solution for a proper loss function with backwards compatibility for possbile future needs. -- Improved accuracy of model.</p>
+                                                <p> <b> Self-directed Product Enhancement</b> - Identified mathematical error in a key loss function; Implemented a scalable working solution for a proper loss function with backwards compatibility for possbile future needs. -- Improved accuracy of model.</p>
                                             </li>
                                         </ul>
                                     </div>
