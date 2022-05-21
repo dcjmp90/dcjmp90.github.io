@@ -1,19 +1,32 @@
 {
   "files": {
-    "app.js": "/gh-pages/static/js/app.1c3a3763.chunk.js",
-    "app.js.map": "/gh-pages/static/js/app.1c3a3763.chunk.js.map",
+    "app.js": "/gh-pages/static/js/app.e6afcddf.chunk.js",
+    "app.js.map": "/gh-pages/static/js/app.e6afcddf.chunk.js.map",
     "runtime~app.js": "/gh-pages/static/js/runtime~app.4f7d226c.js",
     "runtime~app.js.map": "/gh-pages/static/js/runtime~app.4f7d226c.js.map",
-    "static/js/2.d53d6834.chunk.js": "/gh-pages/static/js/2.d53d6834.chunk.js",
-    "static/js/2.d53d6834.chunk.js.map": "/gh-pages/static/js/2.d53d6834.chunk.js.map",
+    "static/js/2.ebadd573.chunk.js": "/gh-pages/static/js/2.ebadd573.chunk.js",
+    "static/js/2.ebadd573.chunk.js.map": "/gh-pages/static/js/2.ebadd573.chunk.js.map",
+    "fonts/AntDesign.ttf": "/gh-pages/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/gh-pages/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/gh-pages/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/gh-pages/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/gh-pages/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/gh-pages/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/gh-pages/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/gh-pages/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/gh-pages/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/gh-pages/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/gh-pages/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/gh-pages/./fonts/SimpleLineIcons.ttf",
     "index.html": "/gh-pages/index.html",
     "manifest.json": "/gh-pages/manifest.json",
     "serve.json": "/gh-pages/serve.json",
-    "static/js/2.d53d6834.chunk.js.LICENSE.txt": "/gh-pages/static/js/2.d53d6834.chunk.js.LICENSE.txt"
+    "static/js/2.ebadd573.chunk.js.LICENSE.txt": "/gh-pages/static/js/2.ebadd573.chunk.js.LICENSE.txt",
+    "static/media/profile_pic.jpg": "/gh-pages/static/media/profile_pic.f7e7ec9c.jpg"
   },
   "entrypoints": [
     "static/js/runtime~app.4f7d226c.js",
-    "static/js/2.d53d6834.chunk.js",
-    "static/js/app.1c3a3763.chunk.js"
+    "static/js/2.ebadd573.chunk.js",
+    "static/js/app.e6afcddf.chunk.js"
   ]
 }
