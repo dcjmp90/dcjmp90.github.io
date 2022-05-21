@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "dcjmp90.github.io",
+    "slug": "dcjmp90.github.io",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
