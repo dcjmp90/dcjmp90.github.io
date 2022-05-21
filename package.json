@@ -2,7 +2,7 @@
   "name": "dcjmp90.github.io",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "",
+  "homepage": "http://dcjmp90.github.io/expo-gh-pages",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
