@@ -54,9 +54,6 @@ export function LandingPageScreen({ navigation }) {
             {/** Introduction Landing Page content ...I'm awk af so here's my weirdness GGnoRE */}
             <View style={styles.itemOutterContainer}>
                 <View style={styles.itemInnerContainer}>
-                    <Text style={styles.itemTitle}>
-                        Introduction
-                    </Text>
                     <Text style={styles.text}>
                         ....but can we add Machine Learning to it?! No, seriously...can we?
                     </Text>
